@@ -1,1 +1,38 @@
-Aquí se pondrán aglunas instrucciones utiles para el proyecto
+Aquí se pondrán aglunas instrucciones utiles para la realización del proyecto
+
+1.- Primeramente seleccionamos visual studio code como ID de desarrollo principal,
+otras herramientas complementarias que estaremos utilizando son: gitKraken y git 
+para actualizar y guardar nuestro repositorio respectivamente.
+
+2.- En visual studio code vamos a instalar (opcional), las siguientes extensiones:
+    - Bracket Pair Colorizer: marca inicio y fin de funciones.
+    - ES7 React/Redux/GraphQL/React-Native snipp: Autocompleta sintaxis React (stippets)
+    - Materail Icon Theme: Visualización de iconos.
+    - Path Intellisense: aparicio de subcarpetas en mi entorno de desarrollo (importaciones).
+    - Prettier - code formatter (formatea el código).
+
+3.- Instalación node JS
+    - Vamos a la página oficial:
+        https://nodejs.org/es
+    - Descargamos la versión de nuestro sistema operativo.
+    - Optamos por instalar la versión LTS.
+    - Instalamos el fichero.
+    - Comrobamos la instalación abriendo la terminal de nuestro OP.
+        comando: node -v
+4.- Instalando Yarn
+    - Instalación de dependencias.
+    - Manejo de dependencias.
+    - Gestor de dependencias.
+    - es posible instalarlo con el siguiente comando: npm install --global yarn
+    - verificamos la instalación con el siguiente comando: yarn --version
+5.- Instalando y configurando INSOMNIA
+    - Probar nuestro servidor antes de integrarlo al cliente (localHost).
+    - Entramos en: insomnia.rest/pricing
+    - Descargamos y configuramos el software.
+    - Una vez instalado el proyecto vamos a crear unas pequeñas configuraciones:
+        ° create> Request > "nombre colección" (en mi caso será: E-Commerce Game Strapi) > crear.
+    - Una vez creada la colección vamos a configurar manage enviroments.
+    - Sub enviroments > + > new enviroment > localHost > color > + > prod > color
+    - No enviroments: seleccionamos.
+6.- Configuración de ReactJS y JSX
+
