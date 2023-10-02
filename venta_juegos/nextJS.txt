@@ -1,0 +1,21 @@
+¿qué es NextJS?
+Es un Framework basado en un ReactJS 
+
+con React podemos construir Webs 
+pero si queremos hacer turas tenemos que generar rutas externas
+
+Lazy Loding
+
+Tiene su propio routing
+
+soporta CSS & SASS
+
+Mejor elección para crear un E-comerce
+
+Crear una app en NextJS
+
+1.- Ir a la página de NExt.js: https://nextjs.org/
+2.- En documentation vamos a la sección de instalación
+    y copiamos para iniciar la instalación, ¿qué copiamos?
+    lo de abajo y lo ponemos en la terminal!
+    npx create-next-app@latest
