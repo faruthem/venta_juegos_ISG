@@ -43,5 +43,5 @@ next-env.d.ts
 
 
 #DataBase
-plugins.js
+plugins.js #####Se quitó esta parte para no exponer nuestra base de datos 
 
