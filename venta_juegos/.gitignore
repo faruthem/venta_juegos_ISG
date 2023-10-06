@@ -2,6 +2,7 @@ introduccion_react.txt
 ima_pro
 node_modules
 estructura_node.txt
+BucketName.txt
 
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
@@ -39,3 +40,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+

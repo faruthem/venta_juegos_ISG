@@ -1,0 +1,31 @@
+Strapi será la parte del servidor donde irán todos nuestros datos
+
+1.- Primer paso 
+    versión 4.6 pero usaremos la más nueva.
+2.- Creamos un nuevo proyecto con el siguiente comando:
+    npx create-strapi-app@latest "nombre del proyecto"
+    npx create-strapi-app@latest ecommerce
+    configuración:
+        Custom
+        JavaScript
+        sqlite
+        .tmp/data.db
+3.- Una vez terminado todo el proceso podemos iniciar el proyecto con los siguientes comandos:
+    Available commands in your project:
+
+  yarn develop
+  Start Strapi in watch mode. (Changes in Strapi project files will trigger a server restart)
+
+  yarn start
+  Start Strapi without watch mode.
+
+  yarn build
+  Build Strapi admin panel.
+
+  yarn strapi
+  Display all available commands.
+
+You can start by doing:
+    la dirección cambiará dependiendo de la dirección de tu proyecto
+  cd C:\Users\Kevin López Guzmán\Documents\proyectos\venta_juegos\e-comerce+next+strapi\ecommerce
+  yarn develop
