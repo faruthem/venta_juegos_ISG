@@ -1,18 +1,18 @@
-module.exports = ({ env }) => ({
+module.exports = (env) => {
+  return {
     upload: {
       config: {
         provider: 'aws-s3',
         providerOptions: {
-            accessKeyId: "AKIAWYWHCFP6P5ACAUY4",
-            secretAccessKey: "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",
-            region: "us-east-2",
-            params: {
-              Bucket:"ecommerce-strapi-games-ferretweb2",
-            },
+          accessKeyId: env.AWS_ACCESS_KEY_ID,
+          secretAccessKey: env.AWS_SECRET_ACCESS_KEY,
+          region: env.AWS_REGION,
+          params: {
+            Bucket: env.AWS_BUCKET,
           },
         },
+      },
     },
     // ...
-  });
-
-  ///Se realizó cambio
+  };
+};
